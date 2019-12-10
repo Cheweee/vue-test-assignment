@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="SoapCore" Version="0.9.9.6" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\VueTest.Data\VueTest.Data.csproj" />
+    <ProjectReference Include="..\VueTest.Services\VueTest.Services.csproj" />
+    <ProjectReference Include="..\VueTest.Shared\VueTest.Shared.csproj" />
+    <ProjectReference Include="..\VueTest.Utilities\VueTest.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

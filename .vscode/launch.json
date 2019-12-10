@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "development",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/VueTest/bin/Debug/netcoreapp2.2/VueTest.dll",
+            "args": ["api"],
+            "cwd": "${workspaceRoot}/VueTest",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+            },
+            "justMyCode": false,
+            "suppressJITOptimizations": true,
+        },
+    ]
+}
